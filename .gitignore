@@ -1,0 +1,86 @@
+# C / C++ #
+# Object files and libraries
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.la
+*.d
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Executables and application bundles
+*.exe
+*.out
+*.app
+
+# Debugging
+*.dSYM/
+*.pdb
+*.idb
+*.su
+
+# Build directories and CMake generated files
+build/
+bin/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Coverage/profiler
+*.gcno
+*.gcda
+*.prof
+
+# Python #
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.Python
+
+# Virtual environments and packaging
+env/
+venv/
+.venv/
+env*/
+dist/
+build/
+eggs/
+*.egg-info/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Cursor folders (ignore any folder named "cursor")
+cursor/
+**/cursor/
+
+# Example folders (ignore any folder named "Example")
+Examples/
+**/Examples/
+
+# Common editor/temp files
+*~
+*.swp
+.*.sw?
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
